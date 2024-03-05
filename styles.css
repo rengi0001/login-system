@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 10;
+    background-color: rgb(8, 5, 5);
+}
+
+
+form {
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    color: white;
+}
+
+input {
+    margin-bottom: 8px;
+    padding: 17px;
+    border-radius: 15px;
+    background-color: rgb(53, 53, 53);
+}
+
+
+button {
+    padding: 15px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 20px; /* bordas arredondadas */
+    cursor: pointer;
+}
+h2{
+    color: white;
+}
